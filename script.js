@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const humidity=document.getElementById("humidity");
     const wind=document.getElementById("wind");
     const error_message=document.getElementById("error-message");
-    const apikey="6b7a43dc2ac651875f9e0b15b49ca1fa"
+    const apikey="" //just enter your api key to this api key is hidden don't know how hide an api key by setting an environment yet
 
     getweatherbtn.addEventListener('click', async()=>{
         const city=cityinput.value.trim()
@@ -64,4 +64,5 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
     
+
   
